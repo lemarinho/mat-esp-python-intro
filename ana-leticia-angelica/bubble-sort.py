@@ -12,4 +12,8 @@ for i in range(0, N - 1, 1):
             lista[i] = lista[j]
             lista[j] = temp
 #para mostrar a lista modificada em ordem crescente.
-print("Lista em ordem crescente", lista) 
+print("Lista em ordem crescente", lista)
+#para imprimir os cinco maiores valores, o comando deve conter o elemento de posicao 15 até o 20 ja que o programa le a ultima posiao N+1, contando de 1 em 1.
+print ("cinco maiores valores", lista[15:20:1])
+#para imprimir os cinco menores valores, o comando deve conter o elemento de posicao 0 ate a 5 ja que o programa le a ultima posicao N+1, contando de 1 em 1.
+print ("cinco menores valores", lista[0:5:1])
